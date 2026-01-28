@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Injector Lite</title>
+    <style>
+        /* Dasar Desain */
+        body {
+            background-color: #0d0d2b; /* Biru sangat gelap */
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Kartu Utama */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .title-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .icon-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: bold;
+            color: #ff9800; /* Warna oranye paket */
+        }
+
+        /* Bagian Highlight Biru */
+        .highlight-box {
+            background: linear-gradient(135deg, #1a237e, #0d47a1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .highlight-box h2 {
+            color: #00e676; /* Hijau neon */
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .highlight-box p {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        /* Detail Baris */
+        .info-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            gap: 10px;
+        }
+
+        .info-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 8px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .info-label {
+            font-size: 10px;
+            display: block;
+            margin-bottom: 5px;
+            color: #ccc;
+        }
+
+        .info-value {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Tombol Download */
+        .download-section {
+            text-align: left;
+        }
+
+        .download-btn {
+            background-color: #00c853;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 15px 0;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0, 200, 83, 0.4);
+        }
+
+        .download-link-text {
+            color: #00e676;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* List Cara Pakai */
+        ol {
+            padding-left: 20px;
+            font-size: 14px;
+            color: #eee;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+        }
+
+        .scan-text {
+            font-size: 11px;
+            color: #bbb;
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="card">
+            <div class="title-section">
+                <div class="icon-text">
+                    <span>📦</span> PAKET YANG DIBELI
+                </div>
+                <small>Injector Lite 25K</small>
+            </div>
+
+            <div class="highlight-box">
+                <h2>INJECTOR LITE 25K</h2>
+                <p>Lifetime Access • Basic Features</p>
+                
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Paket</span>
+                        <span class="info-value">LITE 25K</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Akses</span>
+                        <span class="info-value" style="color: #ff9800;">LIFETIME</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="download-section">
+                <div class="icon-text" style="color: #00bcd4; justify-content: flex-start;">
+                    <span>🕹️</span> DOWNLOAD APLIKASI
+                </div>
+                <p class="https://dowloadmodnamz.netlify.app/">📥 Link Download Injector Lite</p>
+                <p style="font-size: 12px;">Klik link di bawah untuk download aplikasi Injector Lite:</p>
+                
+                <a href="https://dowloadmodnamz.netlify.app/" download class="download-btn">
+    <span>📥</span> DOWNLOAD INJECTOR LITE
+</a>
+                
+                <span class="scan-text">🛡️ Tools 100% aman dan sudah di-scan</span>
+            </div>
+
+            <hr style="border: 0.5px solid rgba(255,255,255,0.1); margin: 20px 0;">
+
+            <div class="how-to-use">
+                <div class="icon-text" style="color: #00e676; justify-content: flex-start;">
+                    <span>▶️</span> Cara Menggunakan
+                </div>
+                <ol>
+                    <li>Download aplikasi di atas</li>
+                    <li>Install Aplikasi di atas dan buka</li>
+                    <li>Gunakan username dan password yang sudah diberikan</li>
+                    <li>Login dan mulai menggunakan</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
